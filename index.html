@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desodism</title>
+    <style>
+        /* Ensuring body takes up the full height of the screen */
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Align text to the top left */
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: 'Helvetica', Arial, sans-serif;
+        }
+
+        /* Text content styling and fade-in effect */
+        .fade-in-text {
+            opacity: 0;
+            font-size: 2em;
+            animation: fadeIn 3s ease-in forwards;
+            padding-left: 50px;
+            margin-top: auto;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #e0e0e0;
+            text-align: left;
+            padding: 10px 50px;
+            font-size: 14px;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+            margin-top: auto;
+        }
+
+        /* Defining the fade-in animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="fade-in-text">
+        <h1>desodism</h1>
+    </div>
+
+    <footer>
+        &copy; 2024 desodism. All rights reserved.
+    </footer>
+</body>
+</html>
+

@@ -1,2 +1,2 @@
-# desodism.github.io
-Organization website for desodism
+# desodist.github.io
+Organization website for desodist
